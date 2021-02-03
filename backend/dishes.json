@@ -1,0 +1,652 @@
+[
+  {
+    "model": "eMenu.Dish",
+    "pk": 1,
+    "fields": {
+      "name": "Twist",
+      "description": "",
+      "price": 14.9,
+      "preparation_time": 45,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 2,
+    "fields": {
+      "name": "Bacon Cheese GrillBUrger",
+      "description": "a thick juicy 1/4 lb. burger crisp bacon, natural cheddar cheese, ketchup, mustard and pickles on a butter - toasted bun",
+      "price": 31.9,
+      "preparation_time": 15,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 3,
+    "fields": {
+      "name": "Mushroom Swiss Grillburger",
+      "description": "a thick juicy 1/4 lb. burger, mushrooms, natural Swiss cheese,  mild garlic mayo on a butter - toasted bun ",
+      "price": 31.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 4,
+    "fields": {
+      "name": "Classic with Cheese Grillburger",
+      "description": "a thick juicy 1/4 lb. burger, natural cheddar cheese, thick-cut tomato, leaf lettuce, ketchup, mustard and pickles on a butter - toasted bun ",
+      "price": 24.9,
+      "preparation_time": 15,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 5,
+    "fields": {
+      "name": "DQ Vanilla Orange Bar",
+      "description": "",
+      "price": 9.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 6,
+    "fields": {
+      "name": "Venors",
+      "description": "",
+      "price": 12.9,
+      "preparation_time": 25,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 7,
+    "fields": {
+      "name": "Hamburger",
+      "description": "ketchup, mustard and pickle",
+      "price": 12.9,
+      "preparation_time": 15,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 8,
+    "fields": {
+      "name": "Georgia Chip Cookies Dough",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 9,
+    "fields": {
+      "name": "Misty Flavors - Cherry",
+      "description": "",
+      "price": 14.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 10,
+    "fields": {
+      "name": "Misty Flavors - Watermelon",
+      "description": "",
+      "price": 14.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 11,
+    "fields": {
+      "name": "Dilly Bar",
+      "description": "",
+      "price": 10.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 12,
+    "fields": {
+      "name": "Raspberry",
+      "description": "",
+      "price": 0,
+      "preparation_time": 45,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 13,
+    "fields": {
+      "name": "Root Beer",
+      "description": "",
+      "price": 12.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 14,
+    "fields": {
+      "name": "Classic Grillburger",
+      "description": "a thick juicy 1/4 lb. burger, thick-cut tomato, leaf lettuce, ketchup, mustard and pickles on a butter - toasted bun",
+      "price": 21.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 15,
+    "fields": {
+      "name": "Grilled Chicken Sandwich",
+      "description": "all-white breast fried chicken grilled to perfection and served with lettuce, tomato and mayonnaise",
+      "price": 29.9,
+      "preparation_time": 25,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 16,
+    "fields": {
+      "name": "Butterfinger Bar Candy",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 25,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 17,
+    "fields": {
+      "name": "Dilly Bar",
+      "description": "",
+      "price": 10.9,
+      "preparation_time": 15,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 18,
+    "fields": {
+      "name": "Starkiss Bar",
+      "description": "",
+      "price": 9.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 19,
+    "fields": {
+      "name": "Pineapple",
+      "description": "",
+      "price": 0,
+      "preparation_time": 15,
+      "is_vege": true,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 20,
+    "fields": {
+      "name": "Cherry",
+      "description": "",
+      "price": 17.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 21,
+    "fields": {
+      "name": "Sprite",
+      "description": "",
+      "price": 12.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 22,
+    "fields": {
+      "name": "Hamburger",
+      "description": "ketchup, mustard and pickle",
+      "price": 12.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 23,
+    "fields": {
+      "name": "Chicken Strip Basket",
+      "description": "bredded chicken breast strips served with fries, dipping sauce and a medium soft drinks",
+      "price": 49.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 24,
+    "fields": {
+      "name": "M and M Chocolate Candy",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 45,
+      "is_vege": false,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 25,
+    "fields": {
+      "name": "Health Bar Candy",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 26,
+    "fields": {
+      "name": "Reese Peanut Butter Cup",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 25,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 27,
+    "fields": {
+      "name": "Misty Flavors - Blue Raspberry",
+      "description": "",
+      "price": 14.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 28,
+    "fields": {
+      "name": "Misty Flavors - Watermelon",
+      "description": "",
+      "price": 14.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 29,
+    "fields": {
+      "name": "DQ Fudge Bar",
+      "description": "",
+      "price": 9.9,
+      "preparation_time": 15,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 30,
+    "fields": {
+      "name": "Shakes and Malts",
+      "description": "",
+      "price": 21.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 31,
+    "fields": {
+      "name": "Raspberry",
+      "description": "",
+      "price": 0,
+      "preparation_time": 25,
+      "is_vege": true,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 32,
+    "fields": {
+      "name": "Pecan Mudslide",
+      "description": "caramel, hot fudge and pecans top this rich soft serve treat",
+      "price": 35.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 33,
+    "fields": {
+      "name": "Root Beer",
+      "description": "",
+      "price": 12.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 34,
+    "fields": {
+      "name": "Mint Mocha",
+      "description": "",
+      "price": 33.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 35,
+    "fields": {
+      "name": "Classic Grillburger",
+      "description": "a thick juicy 1/4 lb. burger, thick-cut tomato, leaf lettuce, ketchup, mustard and pickles on a butter - toasted bun",
+      "price": 21.9,
+      "preparation_time": 25,
+      "is_vege": false,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 36,
+    "fields": {
+      "name": "Bacon Cheese Burger",
+      "description": "ketchup, mustard, pickle, American cheese and bacon",
+      "price": 22.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 37,
+    "fields": {
+      "name": "Chicken Strip Basket",
+      "description": "bredded chicken breast strips served with fries, dipping sauce and a medium soft drinks",
+      "price": 49.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 38,
+    "fields": {
+      "name": "Ft Long Chili N Cheese Dog",
+      "description": "mustard, chili and cheese",
+      "price": 25.9,
+      "preparation_time": 45,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 39,
+    "fields": {
+      "name": "French Fries",
+      "description": "",
+      "price": 13.8,
+      "preparation_time": 45,
+      "is_vege": false,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 40,
+    "fields": {
+      "name": "Chocolate Covered Cherry",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 45,
+      "is_vege": false,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 41,
+    "fields": {
+      "name": "Reese Peanut Butter Cup",
+      "description": "",
+      "price": 28.9,
+      "preparation_time": 25,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 42,
+    "fields": {
+      "name": "Strawberry",
+      "description": "",
+      "price": 0,
+      "preparation_time": 45,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 43,
+    "fields": {
+      "name": "Cocoa Fudge",
+      "description": "",
+      "price": 0,
+      "preparation_time": 15,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 44,
+    "fields": {
+      "name": "Butterscotch",
+      "description": "",
+      "price": 0,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-02-01T09:29:25.382046+00:00",
+      "updated": "2021-02-01T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 45,
+    "fields": {
+      "name": "Peanut Buster Parlfait",
+      "description": "three layers of soft serve, hot fudge topping and peanuts",
+      "price": 35.9,
+      "preparation_time": 25,
+      "is_vege": true,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 46,
+    "fields": {
+      "name": "Brownie Earthquake",
+      "description": "an oreo brownie with DQ soft serve, marshmallow topping, hot fudge, whipped topping and sprinkled with crushed oreo",
+      "price": 35.9,
+      "preparation_time": 25,
+      "is_vege": false,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 47,
+    "fields": {
+      "name": "Diet Coke",
+      "description": "",
+      "price": 12.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 48,
+    "fields": {
+      "name": "Venors",
+      "description": "",
+      "price": 12.9,
+      "preparation_time": 35,
+      "is_vege": false,
+      "created": "2021-02-02T09:29:25.382046+00:00",
+      "updated": "2021-02-02T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 49,
+    "fields": {
+      "name": "Cappuccino",
+      "description": "",
+      "price": 33.9,
+      "preparation_time": 35,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  },
+  {
+    "model": "eMenu.Dish",
+    "pk": 50,
+    "fields": {
+      "name": "Bacon Cheese GrillBUrger",
+      "description": "a thick juicy 1/4 lb. burger crisp bacon, natural cheddar cheese, ketchup, mustard and pickles on a butter - toasted bun",
+      "price": 31.9,
+      "preparation_time": 15,
+      "is_vege": true,
+      "created": "2021-01-31T09:29:25.382046+00:00",
+      "updated": "2021-01-31T09:29:25.382046+00:00"
+    }
+  }
+]
