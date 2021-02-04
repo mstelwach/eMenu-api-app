@@ -30,7 +30,11 @@ Uses the default Django development server.
         ```
         $ docker-compose exec web python manage.py createsuperuser
         ```
-  
+  5. Unit Tests:
+        ```
+        $ docker-compose exec web python manage.py test
+        ```
+     
 Test it out at http://localhost:8000. \
 The "backend" folder is mounted into the container and your code changes apply automatically.
 
